@@ -44,7 +44,7 @@ h1 {
 }
 
 a {
-  color: #4F66EE;
+  color: #080808;
   text-decoration: underline;
 }
 
@@ -52,11 +52,19 @@ a:hover {
   color: #101010;
 }
 
+.meow {
+  border-bottom: 1px solid #eee;
+  min-height: 60px;
+  padding: 10px;
+  background-color: #13BA8A;
+  color: #1c3e57;
+}
+
 .heading {
   border-bottom: 1px solid #eee;
   min-height: 60px;
   padding: 10px;
-  background-color: #A9D6EA;
+  background-color: #FFE99C;
   color: #1c3e57;
 }
 
@@ -72,6 +80,7 @@ a:hover {
 .listings {
   height: calc(100% - 177px);
   overflow: auto;
+  background-color: #86815b;
 }
 
 .listings .listing-item {
@@ -87,7 +96,7 @@ a:hover {
 
 .listings .listing-item .title {
   display: block;
-  color: #4F66EE;
+  color: black;
   font-weight: 700;
 }
 

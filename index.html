@@ -8,7 +8,7 @@
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Rubik:300,400,500,700">
   <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css' rel='stylesheet' />
-  <link rel="stylesheet" media="all" href="/index.css" />
+  <link rel="stylesheet" media="all" href="/index.css" href="/images/CfGLogoWhite.png"/>
 
   <!-- Mapbox -->
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js'></script>
@@ -42,6 +42,9 @@
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <div class='sidebar'>
+    <div class='meow'>
+      <div> <img src="/images/CfGLogoWhite.png" alt=""></div>
+    </div>
     <div class='heading'>
       <h1>COVID-19 Testing Locations</h1>
       <div>Read more <a href="https://sf.gov/GetTestedSF">about getting tested in Greensboro</a></div>
@@ -502,6 +505,30 @@
         .addTo(map);
     }
   </script>
+
+<!-- <div id='nba'>
+  <div id='filters' class='filters'>
+    <div class="switch-field">
+      <div class="switch-title"><strong>Filter Locations</strong></div>
+      <div class="switch-input" data-children-count="2">
+        <input id="filter-all-sites" type="radio" name="maptoggle" value="all" checked="checked"><label
+          id="label-all-sites" for="filter-all-sites">All Sites</label><input id="filter-public-sites" type="radio"
+          name="maptoggle" value="public"><label class="label-icon" id="label-public-sites" for="filter-public-sites">No Insurance
+          Required</label>
+      </div>
+    </div>
+    <div class="switch-field">
+      <div class="switch-title"><strong>Sort Locations</strong></div>
+      <div class="switch-input" data-children-count="2">
+        <input id="sort-alpha" type="radio" name="sites" value="alpha" checked="checked"><label id="label-alpha"
+          for="sort-alpha">Alphabetically</label><input id="sort-closest" type="radio" name="sites"
+          value="closest"><label id="label-closest" for="sort-closest">Closest to Me</label>
+      </div>
+    </div>
+  </div>
+  <div id='listings' class='listings'></div>
+</div> -->
+  
 </body>
 
 </html>
