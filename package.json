@@ -1,0 +1,37 @@
+{
+  "name": "FightCOVID",
+  "version": "1.0.0",
+  "description": "This project's goal is to create a web application that the local public can use to easily find COVID vaccine and testing by locailty in there area.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server . -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musstaffali/FightCOVID.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/musstaffali/FightCOVID/issues"
+  },
+  "homepage": "https://github.com/musstaffali/FightCOVID#readme",
+  "dependencies": {
+    "async-lock": "^1.2.8",
+    "basic-auth": "^2.0.1",
+    "ecstatic": "^4.1.4",
+    "eventemitter3": "^4.0.7",
+    "follow-redirects": "^1.13.3",
+    "http-proxy": "^1.18.1",
+    "http-server": "^0.12.3",
+    "opener": "^1.5.2",
+    "pointer-lock": "^0.0.4",
+    "portfinder": "^1.0.28",
+    "qs": "^6.10.0",
+    "requires-port": "^1.0.0",
+    "secure-compare": "^3.0.1",
+    "union": "^0.5.0"
+  }
+}
