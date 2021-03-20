@@ -13,12 +13,21 @@ setupMap([position.coords.longitude, position.coords.latitude])
 function errorLocation() {}
 
 function setupMap(center) {
-    var map = new mapboxgl.Map({
+    const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/streets-v11',
         center: center,
         zoom: 12
         });
+
+        const nav = new mapboxgl.NavigationControl();
+        map.addControl(nav)
+
+        var directions = new MapboxDirections({
+            accessToken: mapboxgl.accessToken
+        });
+
+        map.addControl(directions, "top-left")
 }
 
 
