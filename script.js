@@ -25,7 +25,7 @@ function setupMap(center) {
 
         var directions = new MapboxDirections({
             accessToken: mapboxgl.accessToken
-        });
+        })
 
         map.addControl(directions, "top-left")
 }
